@@ -1,5 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
 .div1 {
-    background-image: url("https://salamuzik.com/cdn/shop/files/DALL_E_2024-02-23_22.05.30_-_A_vibrant_and_detailed_image_showcasing_a_collection_of_ethnic_Turkish_Iranian_and_Arab_musical_instruments._The_scene_is_set_in_a_traditional_music.webp?v=1708754822&width=2400");
-    height: 400px;
+    background-image: url("https://s1.1zoom.me/big0/438/374792-blackangel.jpg");
+    height: 700px;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: black;
+    text-align:center;
+    padding: 16px 64px;
+    align-items: center;
+}
+
+.lic a{
+    text-decoration: none;
+    color: azure;
+}
+
+.lic li{
+    list-style: none;
+}
+.lic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.ilog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icone a{
+    color: azure;
+}
+
+.ai1{
+    margin-right: 20px;
+}
+
+.accueil h1{
+    font-size: 300%;
+    font-style: italic;
+    color: azure;
 }
