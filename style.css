@@ -56,3 +56,135 @@ header {
     font-style: italic;
     color: azure;
 }
+
+.flex img{
+    width: 100%; 
+    height: 200px;
+}
+
+.instr{
+        margin-top: 24px;
+        padding: 6px;
+        border-radius: 12px;
+        box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
+        background-color: khaki;
+        width: 22%;
+        justify-content: center;
+        text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.serv{
+    margin-top: 24px;
+    padding: 6px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
+    background-color: mediumseagreen;
+    width: 22%;
+    justify-content: center;
+    text-align: center;
+}
+
+.tserv{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+.instrum{
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.avis{
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.av{
+    margin-top: 24px;
+    padding: 6px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
+    background-color: olive;
+    justify-content: center;
+    text-align: center;
+    width: 22%;
+    margin-bottom: 70px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer div{
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+footer a{
+    color: crimson;
+    margin-top: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.abonnement {
+        border-radius: 10px;
+        text-decoration: none;
+        background-color: azure;
+        color: red;
+        padding: 4px 8px;
+        display: inline-block;
+        margin-top: 20px;
+}
+
+.abonnement:hover {
+    background-color: red;
+    color: azure ;
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+footer h4{
+margin-top: 20px;
+}
+
+.instr a{
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: azure;
+    color: red;
+    padding: 4px 8px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.instru a:hover {
+    background-color: red;
+    color: azure ;
+}
