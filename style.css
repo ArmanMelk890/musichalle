@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: azure;
+    background-color: white;
 }
 .div1 {
     background-image: url("https://s1.1zoom.me/big0/438/374792-blackangel.jpg");
@@ -188,3 +188,46 @@ margin-top: 20px;
     background-color: red;
     color: azure ;
 }
+
+.accueil {
+    justify-content: center;
+    text-align: center;
+}
+
+.accueil h1{
+    color: red;
+    font-style: italic;
+}
+
+.accueil p{
+    color: azure;
+    background-color: red;
+}
+
+.accueil a{
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: azure;
+    color: red;
+    padding: 4px 8px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.accueil a:hover{
+    background-color: red;
+    color: azure ;
+}
+
+.avv{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.acc{
+    margin-bottom: 50px;
+    color: blue;
+}
+

@@ -8,6 +8,7 @@ fetch("instrumentsMusiques.json")
     afficheLesServices(data.entreprise.services)
     afficheLesTemoignages(data.entreprise.temoignages)
     afficheleslignes(data)
+    affichelesavantages(data.entreprise.avantagesClients)
 })
 
  
@@ -39,10 +40,21 @@ function afficheleslignes(obj){
 <a href="">${obj.entreprise.texteAppelAction}</a>`
 }
 
+function affichelesavantages(avantagesClients){
+    avantagesClients.forEach(av=>{
+        console.log(av)
+        document.querySelector("#avantagesClients").innerHTML +=`
+   
+        <div class='acc'><p>${av}</p></div>
+       
+        `
+    })
+}
+
 function afficheLesServices(Services){
     Services.forEach(s =>{
         console.log(s)
-        document.querySelector("#services").innerHTML+=`
+        document.querySelector("#services").innerHTML +=`
         <div class='serv'>
         <img src="${s.image}" alt="">
         <h3>${s.nom}</h3>
